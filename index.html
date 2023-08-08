@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="container">
+		<div class="hero">
+			<h1 class="name"><strong>Виталий</strong> Лукьянов</h1>
+			<span class="job-title">Fullstack developer in Python (Junior)</span>
+			<span class="email">vetas77@yandex.ru</span>
+
+			<h2 class="lead">Development and design of web applications 
+for startups and large companies</h2>
+		</div>
+	</div>
+
+<!-- Skills and intrest section -->
+    <div class="image">
+        <img src="img1.jpg" alt="">
+	</div>
+	
+	<div class="container">
+
+		<div class="sections">
+			<h2 class="section-title">Skills</h2>
+
+			<div class="list-card">
+				<span class="exp"> +1 year</span>
+				<div>
+					<h3>Object programming & frameworks</h3>
+					<span>Python, HTML, JS, …</span>
+				</div>
+			</div>
+			
+			<div class="list-card">
+				<span class="exp">+ 1 years</span>
+				<div>
+					<h3>Design integration</h3>
+					<span>Style and tools, JS Frameworks</span>
+				</div>
+			</div>	
+					
+			<div class="list-card">
+				<span class="exp">+ 1 years</span>
+				<div>
+					<h3>Arduino</h3>
+					<span>Scripting, Automation </span>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="sections">
+				<h2 class="section-title">Interests</h2>
+				
+				<div class="list-card">
+					<div>
+						<h3>Scripting languages</h3>
+						<span> JS,  Python</span>
+					</div>
+				</div>	
+
+				<div class="list-card">
+					<div>
+						<h3>Radioelectonics and automation</h3>
+						<span>Arduino</span>
+					</div>
+				</div>		
+		</div>
+	</div>
+
+	<!-- Achievements -->
+
+	<div class="container cards">
+		
+		<div class="card">
+			<div class="skill-level">
+				<span>+</span>
+				<h2>5</h2>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Projects in Python</h3>
+				<span>Adapting and creating solutions for educational purposes</span>
+			</div>
+		</div>
+
+			
+		<div class="card">
+			<div class="skill-level">
+				<h2>50</h2>
+				<span>%</span>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Web</h3>
+				<span>HTML layout</span>
+			</div>
+		</div>
+
+			
+		<div class="card">
+			<div class="skill-level">
+				<h2>30</h2>
+				<span>%</span>
+			</div>
+
+			<div class="skill-meta">
+				<h3>CSS Styles</h3>
+				<span>Such as decoration, configurations HTML</span>
+			</div>
+		</div>
+
+
+		<div class="card">
+			<div class="skill-level">
+				<h2>20</h2>
+				<span>%</span>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Python</h3>
+				<span>Web projects and ensure the quality of delivery</span>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Timeeline -->
+
+	<div class="container">
+		<ol class="timeline">
+		  <li>
+		    <p class="line">Experiences</p>
+		    <span class="point"></span>
+		    <p class="description">
+		      student of SkiilFactory
+		    </p>
+		    <span class="date">Today - Oct. 2022</span>
+		  </li>
+
+		  <li>
+		    <span class="point"></span>
+		    <p class="description">
+		      Freelance
+		    </p>
+		    <span class="date">Today - Des. 2022</span>
+		  </li>
+
+		  		  <li>
+		    <p class="line">Education</p>
+		    <span class="point"></span>
+		    <p class="description">
+		      online course SkiilFactory
+		    </p>
+		    <span class="date">2022 - 2023</span>
+		  </li>
+
+		  		  <li>
+		    <span class="point"></span>
+		    <p class="description">
+		      DonGTU
+		    </p>
+		    <span class="date">1996 - 2001</span>
+		  </li>
+		</ol>
+
+	</div>
+	
+    <div class="collapsible">
+        <button type="button" class="collapsible">More about me...</button>
+            <div class="content">
+                <p>Stress-resistant, diligent, punctual.</p>
+            </div>
+    </div>
+	
+	<div class="script">
+	<script>
+    let coll = document.getElementsByClassName("collapsible");
+    let i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+    }
+    </script>
+    </div>
+	
+	<br><br>
+
+
+	<footer class="container">
+		<span style="font-size: 16px; margin-top: ">Coded and Designed by Vitaliy Lukianov </a> </span>
+	</footer>
+
+
+</body>
+</html>
